@@ -1,5 +1,5 @@
 # PowerBICookbook
-Power BI Cookbook resources. There are 3 .pbix files in this repository.
+Power BI Cookbook resources. There are 3 .pbix files in this repository. This readme is best viewed as "code"
 
 ## In CustomerNoFilterExample.pbix, I demonstrate how to create a report that can be used in a Factbox of a List page in Business Central and filters on the selected record on the List page.
 
