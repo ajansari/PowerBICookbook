@@ -1,11 +1,11 @@
 # PowerBICookbook
 Power BI Cookbook resources. There are 3 .pbix files in this repository.
 
-# In CustomerNoFilterExample.pbix, I demonstrate how to create a report that can be used in a Factbox of a List page in Business Central and filters on the selected record on the List page.
+## In CustomerNoFilterExample.pbix, I demonstrate how to create a report that can be used in a Factbox of a List page in Business Central and filters on the selected record on the List page.
 
-The following are two date table examples: 
+# The following are two date table examples: 
 
-# In DateTable-Example1.pbix, the entire table creation is done in a single query/script. If you intend to copy the query to use in your .pbix, be sure to mark the table as a date table.
+## In DateTable-Example1.pbix, the entire table creation is done in a single query/script. If you intend to copy the query to use in your .pbix, be sure to mark the table as a date table.
 
 Calendar = 
 VAR _calendar =
@@ -22,7 +22,7 @@ RETURN
 		"Month Year", FORMAT([Date], "mmm yyyy")
 )
 
-# In DateTable-Example2.pbix, a simple table is created first, marked as a date table, followed by individually creating day, week, month, quarter and year, and finally arranged in a hierarchy. The periods in this example are better formatted.
+## In DateTable-Example2.pbix, a simple table is created first, marked as a date table, followed by individually creating day, week, month, quarter and year, and finally arranged in a hierarchy. The periods in this example are better formatted.
 
 Step 1: Create a New Table
 
