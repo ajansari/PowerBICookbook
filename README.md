@@ -9,7 +9,7 @@ Power BI Cookbook resources. There are 3 .pbix files in this repository. This re
 
 Calendar = 
 VAR _calendar =
-	CALENDAR (1/1/2011, 12/31/2030)
+	CALENDAR ("1/1/2011", "12/31/2030")
 RETURN
 	ADDCOLUMNS (
 		_calendar,
